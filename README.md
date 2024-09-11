@@ -9,3 +9,6 @@ simply converts a text input to ASCII then to BINAER
 Todo: 
 
 reverse -> BINAER zu WORT
+
+Live:
+https://word-to-ascii.vercel.app/test.html
