@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+
+    <title>BinärRechner</title>
+    <script defer src="index.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+      #asciiOutput {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wort zu ASCII - KONVERTER</h1>
+    <form id="asciiForm">
+      <label for="wordInput">Eingabe</label>
+      <input type="text" id="wordInput" required />
+      <button type="submit">Konvertieren</button>
+    </form>
+    <div id="asciiOutput"></div>
+  </body>
+</html>
+;
